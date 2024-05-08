@@ -13,8 +13,8 @@ public partial class MercydevsContext : DbContext
 
     public MercydevsContext(DbContextOptions<MercydevsContext> options)
         : base(options)
-    {
-    }
+    { }
+    
 
     public virtual DbSet<Cliente> Clientes { get; set; }
 
